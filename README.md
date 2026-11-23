@@ -78,6 +78,14 @@ When receiving large quantities of serialized items at once (e.g. 100+ units), y
 
 ---
 
+## 🔍 Compatibility & Tested Versions
+
+- **Primary Tested Version:** Dolibarr **v24.0.3**
+- **Compatible Versions:** Dolibarr **v14.x through v24.x+**
+- **Requirements:** Dolibarr core `Product batch / serial number management` module enabled.
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
