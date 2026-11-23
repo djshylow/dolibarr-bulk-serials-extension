@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dolibarr Bulk Serial Importer</title>
+    <style>
+        body {
+            width: 280px;
+            margin: 0;
+            padding: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #ffffff;
+            color: #1e293b;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .icon {
+            font-size: 24px;
+        }
+        .title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .desc {
+            font-size: 12px;
+            color: #64748b;
+            line-height: 1.4;
+            margin-bottom: 14px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            background: #2563eb;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #1d4ed8;
+        }
+        .footer {
+            margin-top: 12px;
+            font-size: 11px;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="icon">📦</div>
+        <div>
+            <div class="title">Bulk Serial Importer</div>
+            <div style="font-size: 10px; color: #10b981; font-weight: 600;">Active for Dolibarr</div>
+        </div>
+    </div>
+    <div class="desc">
+        Automatically active on any Dolibarr purchase order reception (dispatch) page.
+        Look for the blue <strong>📋 Bulk Serials</strong> buttons on each row!
+    </div>
+    <button id="btn-trigger" class="btn">⚡ Open Importer Modal</button>
+    <div class="footer">DJSenter Billing Automation</div>
+    <script src="popup.js"></script>
+</body>
+</html>

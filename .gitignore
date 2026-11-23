@@ -1,0 +1,10 @@
+# Ignore Dolibarr core source code and zip packages
+/dolibarr-24.0.3/
+*.zip
+
+# System and editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
